@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="form">
+            <div>
+                <h1>Registration Form</h1>
+                <p>Enter your details below </p>
+                <ul>
+                    <li> <input type="email" placeholder="your_email@gmail.com" required></li>
+                    <br>
+                    <li> <input type="password" placeholder="Password" required></li>
+                </ul>
+                <p><b>!Type a complex password with 8-20 characters.</b></p>
+                <ul>
+                    <li><input type="number" placeholder="+20 Phone Number" required></li>
+                </ul>
+            </div>
+            <hr>
+        <div>
+            <p><b>Enter your Profession:</b></p>
+            <ul>
+                <li><input type="radio" name="prof">Student
+                    <input type="radio" name="prof">Teacher
+                    <input type="radio" name="prof">Developer</li>
+            </ul>
+            Choose the stage if you are(student)
+            <select name="education">
+                <option value="fir-prim">First primary</option>
+                <option value="sec-prim">Second primary</option>
+                <option value="thi-prim">Third primary</option>
+            </select>
+        </div>
+        <hr>
+        <div>
+            <ul>
+                <li>Enter your Birth date.
+                    <input type="date">
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <ul>
+                <li><textarea rows="1" cols="30" placeholder="Any notes"></textarea></li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <button>Submit</button>
+            <button>Reset</button>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
